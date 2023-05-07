@@ -1,0 +1,140 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    padding: 2%;
+    background-color: #1E90FF;
+    border-bottom: 2px solid black;
+}
+
+nav {
+    padding: 5px;
+}
+
+nav.left a {
+    color: black;
+    font-size: 26px;
+    text-decoration: none;
+    padding-right: 40px;
+}
+
+nav.left a:hover {
+    color: gold;
+    text-decoration: overline;
+}
+
+nav.right a {
+    color: black;
+    font-size: 26px;
+    text-decoration: none;
+    padding-left: 40px;
+}
+
+nav.right a:hover {
+    color: gold;
+    text-decoration: overline;
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(239, 244, 255), #1e90ff);
+}
+
+div.section {
+    width: 95%;
+    color: black;
+}
+
+
+
+/* Login */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+label.input_title {
+    font-weight: bold;
+}
+
+input {
+    display: block;
+    margin: 5px 0 20px 0;
+    padding: 15px;
+    width: 25%;
+
+    background: #f1f1f1;
+    border: none;
+    box-sizing: border-box;
+}
+
+input:focus {
+    background-color: #dddddd;
+    outline: none;
+}
+
+button {
+    padding: 16px 20px;
+    margin: 8px 0;
+    width: 25%;
+
+    border: none;
+    color: white;
+    cursor: pointer;
+    opacity: 0.85;
+}
+
+button.login {
+    background-color: #029161;
+}
+
+button.register {
+    background-color: #024e91;
+}
+
+button.change {
+    background-color: #740291;
+}
+
+button.delete {
+    background-color: #91021f;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+.error {
+    color: red;
+}
+
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    padding: 2%;
+    background-color: #1E90FF;
+    border-top: 2px solid black;
+}
