@@ -1,0 +1,16 @@
+CREATE TABLE `baza` (
+  `id` int(9) UNSIGNED NOT NULL,
+  `username` varchar(30) COLLATE utf8_bin NOT NULL,
+  `email` varchar(50) COLLATE utf8_bin NOT NULL,
+  `password` varchar(60) COLLATE utf8_bin NOT NULL,
+  `regdate` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+
+ALTER TABLE `baza`
+ADD PRIMARY KEY (`id`);
+
+ALTER TABLE `baza`
+MODIFY `id` int(9) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+INSERT INTO `baza` (`id`, `username`, `email`, `password`, `regdate`) VALUES
+(1, 'Mihael', 'mihael@skole.hr', 'test#123', '2023-05-05 16:22:36');
