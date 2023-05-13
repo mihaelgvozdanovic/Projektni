@@ -119,7 +119,7 @@ if (isset($_SESSION['loggedin'])) {
     </main>
 
     <footer>
-        Test
+        
     </footer>
 
 </body>
