@@ -41,7 +41,7 @@ include("php/cookie_check.php");
         </nav>
     </header>
 
-    <main>
+    <main style="height: auto !important;">
         <div class="section">
             <h2>
                 O Wim Hofu
@@ -103,7 +103,7 @@ include("php/cookie_check.php");
     </main>
 
     <footer>
-        Test
+        Wim Hof
     </footer>
 
 </body>

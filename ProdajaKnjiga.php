@@ -41,12 +41,13 @@ include("php/cookie_check.php");
         </nav>
     </header>
 
-    <main>
-        <img src='image/WimHofKnjiga.jpg' alt=''>
+    <main style="justify-content: center;">
+        <img class="slika2" src='image/WimHofKnjiga.jpg' alt='' width='300px' height='400px'>
+        <a href="https://www.amazon.com/Wim-Hof-Method-Activate-Potential/dp/1683644093/page.html">stranice koje prodaju knjige o Wim Hof metodi</a>
     </main>
 
     <footer>
-        Test
+        Wim Hof
     </footer>
 
 </body>

@@ -127,7 +127,7 @@ if (!isset($_SESSION['loggedin'])) {
     </main>
 
     <footer>
-        Test
+    Wim Hof
     </footer>
 
 </body>

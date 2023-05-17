@@ -41,12 +41,13 @@ include("php/cookie_check.php");
         </nav>
     </header>
 
-    <main>
-        <img src='image/WimHofMethod.png' alt=''>
+    <main style="justify-content: center;">
+        <img class="slika1" src='image/WimHofMethod.png' alt='' width='300px' height='400px'>
+        <a href="https://www.youtube.com/watch?v=ixWL16B8Xqk/page.html">Wim Hof metoda demonstracija</a>
     </main>
 
     <footer>
-        Test
+    Wim Hof
     </footer>
 
 </body>
